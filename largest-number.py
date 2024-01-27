@@ -5,7 +5,7 @@ def find_largest(numbers):
     if not numbers:
         return "empty list"
     
-    largest = numbers[0]
+    largest = numbers[0]   #choosing a number to compare
     
     for num in numbers:
         if(num > largest):
