@@ -1,13 +1,18 @@
-#program to check if the number is prime or not
+# program to check if the number is prime or not
+# 2, 3, 5, 7, 11, 13, 17, 19, 23, 29
 
 def prime(number):
-    for i in len(number):
-        if i % 2 !=0:
-            print("it is prime")
-        else:
-            print("it is not prime")
+    for i in range(2, number):
+        if number % i == 0:  #checking every number is divisible from 2
+            return False
+    else:
+        return True          
 
+
+
+number = int(input("enter a number: "))
+if prime(number):
+    print(f"{number} is prime")
+else:
+    print(f"{number} is not prime")
     
-
-number = (input("enter a number: "))
-print(prime(number))
