@@ -6,7 +6,7 @@ def palindrome(text):
         return "not a palindrome"
 
 
-
-
 text = input("enter a text: ")
 print(palindrome(text))
+
+# for without using any methods refer reverse-without-methods.py
