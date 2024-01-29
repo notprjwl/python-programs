@@ -8,7 +8,7 @@ def anagram(str1, str2):
         for j in str2:
             if i == j:
                 count += 1
-                
+
     if count == len(str1):
         return 'Strings are anagram'
     else:
