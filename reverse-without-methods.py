@@ -1,6 +1,3 @@
-from ast import If
-
-
 def reverse(num):
     rev = 0
     for _ in range(len(str(num))):
