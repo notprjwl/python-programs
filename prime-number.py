@@ -9,7 +9,6 @@ def prime(number):
         return True          
 
 
-
 number = int(input("enter a number: "))
 if prime(number):
     print(f"{number} is prime")
