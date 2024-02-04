@@ -11,7 +11,5 @@ def remove_duplicates(list1):
     return final_list
     
     
-
-
 list1 = [1,2,3,5,6,9,1,2,5,3,9,10]
 print(remove_duplicates(list1))
