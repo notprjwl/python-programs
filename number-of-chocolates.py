@@ -29,7 +29,4 @@ def number_of_chocolates(total_money, cost_of_one):
     
     return chocolates
 
-print(number_of_chocolates(18, 2)) 
-        
-            
-              
+print(number_of_chocolates(18, 2))
