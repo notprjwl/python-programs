@@ -1,5 +1,3 @@
-
-        
 class Solution:
     def removeNodes(head):
         def reverse(head):
@@ -20,4 +18,3 @@ class Solution:
                 cur_max = cur.next.val
                 cur = cur.next
         return reverse(head)
-
