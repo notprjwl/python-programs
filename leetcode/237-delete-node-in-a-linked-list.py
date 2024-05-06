@@ -16,6 +16,9 @@ class ListNode:
             cur = node
             node = cur.next
         cur.next = None
+        
+    
+    
             
                 
                     
