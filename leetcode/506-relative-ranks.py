@@ -25,5 +25,3 @@ def relative_ranks(scores):
 
 scores = [1]
 print(relative_ranks(scores))
-    
-    
